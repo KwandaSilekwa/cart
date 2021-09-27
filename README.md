@@ -23,6 +23,7 @@ composer update
 composer run-script post-create-project-cmd
 ```
 php artisan storage:link
+```
 php artisan migrate --seed
 ```
 5) php artisan serve
