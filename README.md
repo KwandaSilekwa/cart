@@ -19,7 +19,9 @@ composer run-script post-root-package-install
 4) Run following commands:
 ```
 composer update
+```
 composer run-script post-create-project-cmd
+```
 php artisan storage:link
 php artisan migrate --seed
 ```
