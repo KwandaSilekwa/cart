@@ -16,18 +16,16 @@ composer run-script post-root-package-install
 
 3) Setup .env variables
 
-4) Run following commands:
+4) composer update
 ```
-composer update
+5) composer run-script post-create-project-cmd
 ```
-composer run-script post-create-project-cmd
+6) php artisan storage:link
 ```
-php artisan storage:link
+7) php artisan migrate --seed
 ```
-php artisan migrate --seed
-```
-5) php artisan serve
+8) php artisan serve
 
-6) then visit http://127.0.0.1:8000/login
-```
+9) then visit http://127.0.0.1:8000/login
+
 Done.
