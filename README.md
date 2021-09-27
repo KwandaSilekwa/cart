@@ -1,6 +1,4 @@
-# Demo of Laravel Cart Manager
-
-This repo contains the code for the demo of [Laravel Cart Manager](https://github.com/freshbitsweb/laravel-cart-manager) package.
+Cart Manager
 
 # Installation
 
@@ -26,5 +24,7 @@ php artisan storage:link
 php artisan migrate --seed
 ```
 5) php artisan serve
+
 6) then visit http://127.0.0.1:8000/login
+```
 Done.
