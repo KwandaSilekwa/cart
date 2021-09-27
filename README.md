@@ -20,17 +20,26 @@ composer run-script post-root-package-install
 ``` 
 composer update
 ```
+
 5) Run the post create project script
 ```
 composer run-script post-create-project-cmd
 ```
-6) Serve the project
+
+6) Create a storage link
 ```
 php artisan storage:link
 ```
-7) php artisan migrate --seed
+
+7) Migrate and Seed to the data
 ```
-8) php artisan serve
+php artisan migrate --seed
+```
+
+8) Serve the project
+```
+php artisan serve
+```
 
 9) then visit http://127.0.0.1:8000/login
 
