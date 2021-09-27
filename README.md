@@ -16,11 +16,17 @@ composer run-script post-root-package-install
 
 3) Setup .env variables
 
-4) composer update
+4) Update Composer
+``` 
+composer update
 ```
-5) composer run-script post-create-project-cmd
+5) Run the post create project script
 ```
-6) php artisan storage:link
+composer run-script post-create-project-cmd
+```
+6) Serve the project
+```
+php artisan storage:link
 ```
 7) php artisan migrate --seed
 ```
