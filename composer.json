@@ -11,10 +11,10 @@
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
         "freshbitsweb/laravel-cart-manager": "^1.2",
+        "fakerphp/faker": "^1.19",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "spatie/laravel-medialibrary": "^7.0.0",
-        "fzaninotto/faker": "^1.4"
+        "spatie/laravel-medialibrary": "^7.0.0"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
