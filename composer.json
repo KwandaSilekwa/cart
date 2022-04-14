@@ -13,11 +13,11 @@
         "freshbitsweb/laravel-cart-manager": "^1.2",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "spatie/laravel-medialibrary": "^7.0.0"
+        "spatie/laravel-medialibrary": "^7.0.0",
+        "fzaninotto/faker": "^1.4"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
-        "fzaninotto/faker": "^1.4",
         "laravel/ui": "^3.0",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^5.0",
