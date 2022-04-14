@@ -23,7 +23,7 @@ use App\Http\Controllers\MenuController;
 // Route::post('decrement-cart-item', 'CartController@decrementCartItem');
 // Route::post('apply-discount', 'CartController@applyDiscount');
 
-// Route::get('/', 'MenuController@index')->name('home');
+Route::get('/', 'MenuController@index')->name('home');
 Route::post('add-to-cart', 'CartController@addToCart');
 Route::post('remove-from-cart', 'CartController@removeFromCart');
 Route::post('cart-item-quantity-set', 'CartController@cartItemQuantitySet');
